@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "CSE 291 is a graduate course on language-based security. Most software we rely\nupon is plagued by security vulnerabilities \u2014 the common occurrence of\nlarge-scale private data theft alone serves to highlight the magnitude of the\nproblem. Yet the rise of new application domains and platforms (e.g., crypto\ncurrencies and IoT) is making software ever more integral to daily life. It is\nprudent for us to build more secure software systems.\n\n\nOne promising approach to building secure systems is to leverage ideas from\nprogramming languages and program analysis. The recent industry trend of\nadopting new languages, type systems, and tools \u2014 as exemplified by Mozilla's\n\nRust\n and Facebook's \nInfer\n \u2014\nalso makes this approach very timely.\n\n\nThis course explores the use of various programming languages and program\nanalysis methods to (1) enforce security, and (2) to rigorously specify and\nreason about security.  We will study secure runtime systems (e.g., operating\nsystems, web servers, hardware architectures) and the underlying techniques\nused to make them secure (e.g., language-level information flow control,\ncapabilities, static checkers, symbolic execution, linear type systems).\n\n\nThis is a research-oriented class: students are expected to read papers in\ndepth and work on a relatively large research project that can ideally lead to\na conference publication.\n\n\nCourse prerequisites\nStudents should have knowledge of programming languages (e.g., CSE 130),\noperating systems (e.g., CSE 120), and security (e.g., CSE 127).  We will\nbe reading research papers on advanced topics with very brief\nintroductions, so students should be familiar with topics in these areas\n(e.g., language semantics, virtual memory management, basic web security)\nor be willing to independently pick up these topics.\nMeeting time and locating\n\u00b6\n\n\n\n\nLocation:\n CSE 2154\n\n\nTime:\n Mondays and Wednesdays 3:30-4:50PM",
+            "title": "About"
+        },
+        {
+            "location": "/#meeting-time-and-locating",
+            "text": "Location:  CSE 2154  Time:  Mondays and Wednesdays 3:30-4:50PM",
+            "title": "Meeting time and locating"
+        },
+        {
+            "location": "/syllabus/",
+            "text": "Date\n\n\nTopic\n\n\nLead\n\n\n\n\n\n\n\n\n\n\nJan  8\n\n\nOverview and introduction\n \n \nA Note on the Confinement Problem\n by Butler W. Lampson\n\n\nDeian\n\n\n\n\n\n\nJan 10\n\n\n\n\nDeian\n\n\n\n\n\n\nJan 15\n\n\nNo class, \nMartin Luther King, Jr.\n\n\n\n\n\n\n\n\nJan 17\n1\n\n\n\n\nDeian\n\n\n\n\n\n\nJan 22\n\n\n\n\nTBA\n\n\n\n\n\n\nJan 24\n\n\n\n\nTBA\n\n\n\n\n\n\nJan 29\n\n\n\n\nTBA\n\n\n\n\n\n\nJan 31\n2\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb  5\n\n\nNo class, PLDI PC meeting\n\n\n\n\n\n\n\n\nFeb  7\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb 12\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb 14\n2\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb 19\n\n\nNo class, Presidents' Day\n\n\n\n\n\n\n\n\nFeb 21\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb 26\n\n\n\n\nTBA\n\n\n\n\n\n\nFeb 28\n2\n\n\n\n\nTBA\n\n\n\n\n\n\nMar  5\n\n\n\n\nTBA\n\n\n\n\n\n\nMar  7\n\n\n\n\nTBA\n\n\n\n\n\n\nMar 12\n\n\n\n\nTBA\n\n\n\n\n\n\nMar 14\n\n\nFinal project presentations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject proposals due.\u00a0\n\u21a9\n\n\n\n\n\n\nProject status day.\u00a0\n\u21a9\n\u21a9\n\u21a9",
+            "title": "Syllabus"
+        },
+        {
+            "location": "/about/",
+            "text": "The course consists of lectures, readings, pre-lecture questions, and a\nproject.  Most of the work in this course consists of reading journal and\nconference papers. We will cover one paper for each class meeting.  Active\ndiscussion will give you a non-trivial understanding of the material. The final\nproject will give you an opportunity to explore a topic more deeply.\n\n\nGrading\n\u00b6\n\n\n\n\n25% Paper summaries and reading questions\n\n\n25% Class participation\n\n\n50% Final project (including presentation and write-up)\n\n\n\n\nPaper summaries and reading questions\n\u00b6\n\n\nPrior to each lecture, please summarize each reading into 1-2 paragraphs.  With\nsome exceptions, each paper will also be accompanied with (one to two)\nquestions that you are required to respond to. The questions will be posted on\nthe reading list in the syllabus at least one day prior to the lecture devoted\nto that paper.  Responses should be short and pithy. Our goal is to get you to\nthink deeply about the paper, not to test you. You won\u2019t be graded on the\ncorrectness of your answer but simply on whether you attempted to answer the\nquestion at all.\n\n\nClass participation\n\u00b6\n\n\nStudents (in groups of 2-3) are expected to lead the discussion for one paper.\nBeyond this, we evaluate class participation largely by observing how prepared\nstudents are to discuss the covered paper when they come to class.  This is not\na trivial requirement because we expect papers to have been read thoroughly\nprior to lecture.  Your paper summary and response to reading questions are a\ngood opportunity to show that you understood the paper well.\n\n\nFinal project\n\u00b6\n\n\nIn groups of 2-3, students are expected to work on a final project.  The goal\nof the project is to do original research on a security problem, (hopefully)\nusing techniques explored in this course.  We will devote some class time to\ndoing project updates.  At the end of the quarter, you are expected to give a\nshort presentation and write a short conference-style paper on the project.\n\n\nWe will have a list of project ideas shortly after the course starts, but\nstudents are also encouraged to come up with their own ideas. If you are\nalready working on a research project that fits the theme of this course,\nplease feel free to use this as your final project (but indicate that you are\ndoing so and confirm with the instructor).",
+            "title": "Organization"
+        },
+        {
+            "location": "/about/#grading",
+            "text": "25% Paper summaries and reading questions  25% Class participation  50% Final project (including presentation and write-up)",
+            "title": "Grading"
+        },
+        {
+            "location": "/about/#paper-summaries-and-reading-questions",
+            "text": "Prior to each lecture, please summarize each reading into 1-2 paragraphs.  With\nsome exceptions, each paper will also be accompanied with (one to two)\nquestions that you are required to respond to. The questions will be posted on\nthe reading list in the syllabus at least one day prior to the lecture devoted\nto that paper.  Responses should be short and pithy. Our goal is to get you to\nthink deeply about the paper, not to test you. You won\u2019t be graded on the\ncorrectness of your answer but simply on whether you attempted to answer the\nquestion at all.",
+            "title": "Paper summaries and reading questions"
+        },
+        {
+            "location": "/about/#class-participation",
+            "text": "Students (in groups of 2-3) are expected to lead the discussion for one paper.\nBeyond this, we evaluate class participation largely by observing how prepared\nstudents are to discuss the covered paper when they come to class.  This is not\na trivial requirement because we expect papers to have been read thoroughly\nprior to lecture.  Your paper summary and response to reading questions are a\ngood opportunity to show that you understood the paper well.",
+            "title": "Class participation"
+        },
+        {
+            "location": "/about/#final-project",
+            "text": "In groups of 2-3, students are expected to work on a final project.  The goal\nof the project is to do original research on a security problem, (hopefully)\nusing techniques explored in this course.  We will devote some class time to\ndoing project updates.  At the end of the quarter, you are expected to give a\nshort presentation and write a short conference-style paper on the project.  We will have a list of project ideas shortly after the course starts, but\nstudents are also encouraged to come up with their own ideas. If you are\nalready working on a research project that fits the theme of this course,\nplease feel free to use this as your final project (but indicate that you are\ndoing so and confirm with the instructor).",
+            "title": "Final project"
+        },
+        {
+            "location": "/contact/",
+            "text": "For general information and questions, please post to the class\n\nforum\n.  It's\nlikely that other students will have the same question. We will post\nannouncements on the forum (in addition to the course page), so please make\nsure to sign up.  For urgent or personal matters matters, please contact us by\nemail.\n\n\nCourse mailing list\n\u00b6\n\n\n\n\nGoogle forum:\n \nucsd-cse291-winter18\n\n\n\n\nInstructor\n\u00b6\n\n\n\n\nName:\n \nDeian Stefan\n\n\nEmail:\n \ndeian+cse291@cs.ucsd.edu\n\n\nOffice:\n CSE 3126 \n\n\nOffice Hours:\n Monday 5:00-5:30PM or by appointment\n\n\n\n\nTeaching Assistant\n\u00b6\n\n\n\n\nName:\n Shravan Narayan\n\n\nEmail:\n \nshrn002+cse291@cs.ucsd.edu\n\n\nOffice:\n CSE 3148",
+            "title": "Contact information"
+        },
+        {
+            "location": "/contact/#course-mailing-list",
+            "text": "Google forum:   ucsd-cse291-winter18",
+            "title": "Course mailing list"
+        },
+        {
+            "location": "/contact/#instructor",
+            "text": "Name:   Deian Stefan  Email:   deian+cse291@cs.ucsd.edu  Office:  CSE 3126   Office Hours:  Monday 5:00-5:30PM or by appointment",
+            "title": "Instructor"
+        },
+        {
+            "location": "/contact/#teaching-assistant",
+            "text": "Name:  Shravan Narayan  Email:   shrn002+cse291@cs.ucsd.edu  Office:  CSE 3148",
+            "title": "Teaching Assistant"
+        },
+        {
+            "location": "/ideas/",
+            "text": "Coming soon. In the meantime, see course projects from the \nFall\n2016\n incarantion of this\ncourse.",
+            "title": "Project ideas"
+        }
+    ]
+}
