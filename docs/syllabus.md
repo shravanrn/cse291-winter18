@@ -19,8 +19,8 @@ Feb 12     | [Portable Software Fault Isolation](papers/psfi.pdf) by Kroll et al
            | <center>**Building secure systems**</center> |
 Feb 14[^2] | [Hyperkernel: Push-Button Verification of an OS Kernel](papers/hyperkernel.pdf) by Nelso et al. | TBA
 Feb 19     | *No class, Presidents' Day* |
-Feb 21     | [Multiprogramming a 64 kB Computer Safely and Efficiently](papers/tock.pdf) by Levy et al. | TBA
-Feb 26     | [Ironclad Apps: End-to-End Security via Automated Full-System Verification](papers/ironclad-apps.pdf) by Hawblitzel et al. | TBA
+Feb 21     | [Ironclad Apps: End-to-End Security via Automated Full-System Verification](papers/ironclad-apps.pdf) by Hawblitzel et al. | TBA
+Feb 26     | [Multiprogramming a 64 kB Computer Safely and Efficiently](papers/tock.pdf) by Levy et al. | TBA
 Feb 28[^2] | [Hails: Protecting data privacy in untrusted web applications](papers/hails.pdf) by Giffin et al.  | TBA
            | <center>**Symbolic execution**</center> |
 Mar  5     | [Under-constrained symbolic execution: correctness checking for real code](papers/ucklee.pdf) by Ramos and Engler | TBA
