@@ -6,9 +6,9 @@ project will give you an opportunity to explore a topic more deeply.
 
 #### Grading
 
-- 25% Paper summaries and reading questions
-- 25% Class participation
-- 50% Final project (including presentation and write-up)
+- 15% Paper summaries and reading questions
+- 30% Class participation
+- 55% Final project (including presentation and write-up)
 
 #### Paper summaries and reading questions
 
