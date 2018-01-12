@@ -19,5 +19,5 @@ email.
 ### Teaching Assistant
 
 - **Name:** Shravan Narayan
-- **Email:** <shrn002+cse291@cs.ucsd.edu>
+- **Email:** <srn002+cse291@cs.ucsd.edu>
 - **Office:** CSE 3148 
